@@ -311,7 +311,6 @@ const CropCycleDisplay = ({
   };
 
   const submitHarvestForm = async () => {
-    console.log(harvestForm);
     if (!harvestForm.actualDate) {
       alert("Please enter the actual harvest date.");
       return;

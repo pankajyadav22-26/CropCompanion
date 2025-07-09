@@ -153,7 +153,6 @@ const CropPlanning = () => {
         }/api/crop-cycles/${seasonId}/${fieldId}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
-      console.log(res.data);
 
       return res.data;
     } catch (err) {
