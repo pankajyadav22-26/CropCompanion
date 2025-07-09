@@ -1,0 +1,6 @@
+/backend/.env
+/backend/node_modules
+/models/venv
+/frontend/.env
+/frontend/.gitignore
+models/yieldPredictor
