@@ -4,3 +4,4 @@
 /frontend/.env
 /frontend/.gitignore
 models/yieldPredictor
+models/pestDetection
