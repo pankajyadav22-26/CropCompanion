@@ -1,4 +1,5 @@
 import React from "react";
+import images from "src/services/images";
 
 export default function About() {
   return (
@@ -53,7 +54,7 @@ export default function About() {
               className="bg-white border rounded-xl shadow-sm hover:shadow-md transition p-6 flex flex-col items-center text-center"
             >
               <img
-                src="src/assets/profile.png"
+                src={images.profileImg}
                 alt={member.name}
                 className="w-24 h-24 rounded-full mb-4 object-cover border"
               />

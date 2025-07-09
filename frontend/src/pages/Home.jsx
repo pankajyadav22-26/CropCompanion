@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Leaf, CalendarCheck, BarChart3, Smile } from "lucide-react";
+import { Leaf, CalendarCheck, BarChart3} from "lucide-react";
+import images from "src/services/images";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2">
             <img
-              src="src/assets/herofarm.jpg"
+              src={images.herofarm}
               alt="Farming illustration"
               className="w-full rounded-xl shadow-md"
             />

@@ -3,6 +3,7 @@ import { logout } from "../redux/farmerSlice";
 import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { useLocation, Link } from "react-router-dom";
+import images from "src/services/images";
 
 export default function Navbar() {
   const { isLoggedIn, farmer } = useSelector((state) => state.farmer);
@@ -23,7 +24,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img
-            src="src/assets/logo.png"
+            src={images.logo}
             alt="Logo"
             className="w-10 h-10 object-contain"
           />

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
+import images from "src/services/images";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col gap-3">
           <div className="flex items-center gap-2">
             <img
-              src="src/assets/logo.png"
+              src={images.logo}
               alt="Logo"
               className="w-10 h-10 object-contain"
             />

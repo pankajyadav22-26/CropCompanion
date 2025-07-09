@@ -49,6 +49,8 @@ const StageCard = ({
   const harvestingDone = !!cropCycle.harvesting?.actualDate;
   const sowingDone = cropCycle.sowing?.actualDate;
 
+  console.log(stage.key);
+
   const renderStageDetails = () => {
     switch (stage.key) {
       case "cropSelection":
