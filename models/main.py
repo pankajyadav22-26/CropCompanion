@@ -6,7 +6,7 @@ import io
 import numpy as np
 import pandas as pd
 import joblib
-import tensorflow as tf
+# import tensorflow as tf
 
 # --------- MODEL LOADING ---------
 # Crop Recommendation
