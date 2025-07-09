@@ -4,7 +4,7 @@ pydantic
 joblib
 scikit-learn
 pillow
-tensorflow
+tensorflow-cpu==2.13.0
 pandas
 numpy
 xgboost
