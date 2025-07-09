@@ -4,6 +4,7 @@ pydantic
 joblib
 scikit-learn
 pillow
+tensorflow
 pandas
 numpy
 xgboost
